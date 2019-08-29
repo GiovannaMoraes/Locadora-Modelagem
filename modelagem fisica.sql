@@ -46,6 +46,10 @@ create table Carros (
   modelo varchar(20),
   ano int(4),
   cor varchar(20),
+  combustível varchar(10),
+  rastreador varchar(10),
+  documentação varchar(10),
+  chassi char(13),
   placa char(8));
 
 create table Hist_oficina (
